@@ -1,12 +1,8 @@
-function repeatString (string, times){
-    if (times > 0)
-        return string.repeat(times);
-    else 
-        return "";
+const repeatString = function(string,num) {
+    return string.repeat(num)
 
-}
-repeatString('hey', 3)
-;
+};
+
 
 // Do not edit below this line
 module.exports = repeatString;
